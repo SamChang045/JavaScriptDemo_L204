@@ -52,13 +52,18 @@
       </td>
       <td>
         <!--- 倒數計時器 -->
-        <div class="div" id="timer">5</div>
+        <div class="div" id="timer"></div>
       </td>
       </tr>
       <tr>
       <td>
         <!--- 開關燈按鈕 -->
-        <button class="button" onclick="toggleLight();">ON<br>-<br>OFF</button></td>
+        <button class="button" onclick="toggleLight();">ON<br>-<br>OFF</button>
+	  </td>
+	  <td>
+		<input type="text" id="countdown" >
+		<input type="button" value="計時器啟動" onclick="TimerEvent()" />
+	  </td>
       </tr>
       </tbody>
     </table>
